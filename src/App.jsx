@@ -31,7 +31,7 @@ function App() {
           </a>
         </div>
       </div>
-      <div className="m-5 mx-auto bg-slate-900 text-white p-5 rounded-lg lg:max-w-4xl">
+      <div className="m-5 mx-auto bg-black text-white p-5 rounded-lg lg:max-w-4xl">
         <h3 className='text-3xl text-yellow-400 text-center p-1'>About me</h3>
         <p className='text-center p-2'>Self-paced Learner and an Enthusiast in Programming and Web development and worked on projects which have
           enhanced my skill set. I want to be an Explorer in a
