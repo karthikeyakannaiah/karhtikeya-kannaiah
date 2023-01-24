@@ -1,9 +1,9 @@
 const Card = ({ title, duration, description }) => {
     return (
-        <div className="text-bg-dark p-3 my-4 rounded">
-            <div className="h3">{title}</div>
-            {duration && <div className="mb-2 text-muted">{duration}</div>}
-            <div className="mb-3 text-secondary">{description}</div>
+        <div className="bg-black m-2 p-2 rounded-lg">
+            {duration && <div className="text-slate-400 text-sm">{duration}</div>}
+            <div className="text-yellow-400">{description}</div>
+            <div className="text-xl">{title}</div>
         </div>
     );
 }
